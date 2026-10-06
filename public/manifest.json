@@ -1,0 +1,26 @@
+{
+  "author": "Fynn Grajewski (basiert auf RemNote Text to Speech, MIT)",
+  "name": "AI Voice (ElevenLabs)",
+  "description": "ElevenLabs voice for flashcards: question, then answer after rating",
+  "enableOnMobile": true,
+  "id": "ai_voice_elevenlabs",
+  "manifestVersion": 1,
+  "version": {
+    "major": 0,
+    "minor": 4,
+    "patch": 0
+  },
+  "minimumRemNoteVersion": {
+    "major": 1,
+    "minor": 12,
+    "patch": 67
+  },
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "ReadCreateModifyDelete"
+    }
+  ],
+  "repoUrl": "https://github.com/rgapartments/AI-Remnote"
+}
